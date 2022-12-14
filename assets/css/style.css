@@ -425,6 +425,10 @@ h6 {
   color: #fff;
 }
 
+#hero .hero-img img {
+  max-height: 550px;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -437,7 +441,7 @@ h6 {
   }
 
   #hero .hero-img img {
-   max-height: 250px;
+   max-height: 350px;
   }
 }
 
@@ -454,7 +458,7 @@ h6 {
   }
 
   #hero .hero-img img {
-    max-height: 300px;
+    max-height: 350px;
   }
 }
 
